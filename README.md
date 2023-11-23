@@ -48,3 +48,9 @@ Com a venda finalizada, o sistema deve realizar a atualização de estoque dos p
 Cada venda deve gerar, pelo menos um lançamento no contas a receber,  dependendo da forma de pagamento. Caso boleto, pix, cartão de débito o lançamento deve ser único, com data de lançamento do dia da venda e valor total da venda. Caso seja cartão de crédito, crediário etc, o sistema deve considerar a quantidade de vezes que o cliente optou em dividir a compra e fazer os respectivos lançamentos no contas a receber com as datas de acordo com o prazo escolhido.
 
 Após a confirmação da venda a empresa BRASILEIRAS deve entregar os produtos. A empresa BRASILEIRAS possui uma frota de caminhões próprios e cada caminhão sai diariamente com vários produtos dos clientes. Deve ser possível o cliente acompanhar o processo de entrega das mercadorias. No momento da entrega, caso o cliente não esteja em casa, o pedido deve retornar para a empresa e será realizada mais 2 tentativas de entrega. Se não for possível realizar a entrega por ausência do comprador, o pedido retorna e fica disponível para retirada na sede da empresa BRASILEIRAS.
+
+
+Considerando o caso hipotético supracitado, o aluno deve:
+1) Definir uma metodologia para o desenvolvimento do software, e justificar sua escolha.
+2) Elencar os requisitos funcionais e não funcionais identificados.
+3) Desenvolver uma REST API, utilizando Java e Spring, com pelomenos 4 serviços presentes na análise. Exemplo: serviço de manutenção de clientes, de fornecedores etc.
