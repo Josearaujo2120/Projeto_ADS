@@ -4,7 +4,7 @@
 - Utilização da metodologia ágil, como Scrum. Essa escolha permite entregas incrementais, contínuas e flexíveis para ajustar requisitos ao longo do desenvolvimento. A abordagem colaborativa do Scrum se alinha bem com a necessidade de interação constante com os stakeholders, adaptando-se às mudanças e prioridades. 
 
 
-2- Requisitos Funcionais
+2.1 - Requisitos Funcionais
 - Cadastro de produtos com dados da nota fiscal (código, descrição, código de barras, valor de compra, fornecedor). 
 - Lançamento de contas a pagar ao cadastrar nota fiscal. 
 - Exibição de produtos disponíveis para venda no site. 
@@ -16,7 +16,27 @@
 - Geração de número único, dados, valor total, produtos e formas de pagamento para cada venda. 
 - Atualização de estoque após a conclusão da venda. 
 - Acompanhamento do processo de entrega pelos clientes. 
-- Retorno de pedidos não entregues após 3 tentativas para retirada na sede. 
+- Retorno de pedidos não entregues após 3 tentativas para retirada na sede.
+
+2.2 - Requisitos Não Funcionais
+- Desempenho:
+RNF1: Tempo de resposta rápido para navegação no site.
+RNF2: Suportar um grande número de transações simultâneas durante picos de acesso.
+
+- Segurança:
+RNF3: Proteger dados sensíveis dos usuários.
+RNF4: Utilizar protocolos seguros para transmissão de dados.
+
+- Confiabilidade:
+RNF5: Sistema disponível 24/7.
+RNF6: Backup regular dos dados.
+
+- Usabilidade:
+RNF7: Interface de usuário intuitiva.
+RNF8: Suporte a diferentes dispositivos (responsividade).
+
+- Escalabilidade:
+RNF9: Capacidade de escalar para lidar com o aumento da demanda.
 
 
 
